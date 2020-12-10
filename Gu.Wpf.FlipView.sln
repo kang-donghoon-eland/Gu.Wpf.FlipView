@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{3C205845-3
 		Settings.XamlStyler = Settings.XamlStyler
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu.Wpf.FlipView", "Gu.Wpf.FlipView\Gu.Wpf.FlipView.csproj", "{B6B0CDA6-CBE0-4D18-A213-C0F5D8100DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gu.Wpf.FlipView", "Gu.Wpf.FlipView\Gu.Wpf.FlipView.csproj", "{B6B0CDA6-CBE0-4D18-A213-C0F5D8100DD1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gu.Wpf.FlipView.Demo", "Gu.Wpf.FlipView.Demo\Gu.Wpf.FlipView.Demo.csproj", "{5ABE606A-93D4-47B0-A070-76863A9CE789}"
 EndProject
@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{3C608586
 		README.md = README.md
 		RELEASE_NOTES.md = RELEASE_NOTES.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu.Wpf.FlipViewDemo2", "Gu.Wpf.FlipViewDemo2\Gu.Wpf.FlipViewDemo2.csproj", "{357226BE-B10D-47C9-B742-0026A007BDC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,12 @@ Global
 		{21DFC04F-7CD0-4F16-B5A8-9822D7806506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DFC04F-7CD0-4F16-B5A8-9822D7806506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DFC04F-7CD0-4F16-B5A8-9822D7806506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.CreateNugetPackage|Any CPU.ActiveCfg = Debug|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.CreateNugetPackage|Any CPU.Build.0 = Debug|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357226BE-B10D-47C9-B742-0026A007BDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
